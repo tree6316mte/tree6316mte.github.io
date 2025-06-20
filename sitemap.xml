@@ -2,20 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>//localhost:1313/about/</loc>
+    <loc>/docs/state_machine/01_fsm/</loc>
   </url><url>
-    <loc>//localhost:1313/categories/</loc>
+    <loc>/docs/microtip/01_string/</loc>
   </url><url>
-    <loc>//localhost:1313/docs/first-page/</loc>
+    <loc>/thinking/microtip/01_string/</loc>
   </url><url>
-    <loc>//localhost:1313/docs/</loc>
+    <loc>/docs/optimization/01_objectpooling/</loc>
   </url><url>
-    <loc>//localhost:1313/docs/folder/</loc>
+    <loc>/docs/state_machine/02_hfsm/</loc>
   </url><url>
-    <loc>//localhost:1313/docs/folder/leaf/</loc>
+    <loc>/docs/microtip/02_texture/</loc>
   </url><url>
-    <loc>//localhost:1313/</loc>
+    <loc>/thinking/microtip/02_texture/</loc>
   </url><url>
-    <loc>//localhost:1313/tags/</loc>
+    <loc>/docs/state_machine/03_bt/</loc>
+  </url><url>
+    <loc>/blog/2025/2025-05-08/</loc>
+  </url><url>
+    <loc>/blog/2025/2025-05-09/</loc>
+  </url><url>
+    <loc>/about/</loc>
+  </url><url>
+    <loc>/blog/</loc>
+  </url><url>
+    <loc>/categories/</loc>
+  </url><url>
+    <loc>/docs/</loc>
+  </url><url>
+    <loc>/</loc>
+  </url><url>
+    <loc>/tags/</loc>
+  </url><url>
+    <loc>/thinking/</loc>
+  </url><url>
+    <loc>/docs/unitask/</loc>
+  </url><url>
+    <loc>/docs/design_pattern/behavioral_patterns/</loc>
+  </url><url>
+    <loc>/docs/design_pattern/structural_patterns/</loc>
+  </url><url>
+    <loc>/docs/design_pattern/</loc>
+  </url><url>
+    <loc>/docs/state_machine/</loc>
+  </url><url>
+    <loc>/docs/design_pattern/creatinal_patterns/</loc>
+  </url><url>
+    <loc>/docs/design_pattern/creatinal_patterns/01.singleton/</loc>
+  </url><url>
+    <loc>/docs/design_pattern/behavioral_patterns/01.singleton/</loc>
+  </url><url>
+    <loc>/docs/design_pattern/structural_patterns/01.singleton/</loc>
+  </url><url>
+    <loc>/docs/unitask/01/</loc>
+  </url><url>
+    <loc>/docs/microtip/</loc>
+  </url><url>
+    <loc>/thinking/microtip/</loc>
+  </url><url>
+    <loc>/docs/optimization/</loc>
   </url>
 </urlset>
