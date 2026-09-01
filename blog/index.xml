@@ -1,46 +1,46 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>tree6316mte – Blog&#39;s</title>
-    <link>/blog/</link>
-    <description>Recent content in Blog&#39;s on tree6316mte</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>ko</language>
-    
-	  <atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-      
-        
-      
-    
-    
-    <item>
-      <title>2025-05-08 던전 만들기</title>
-      <link>/blog/2025/2025-05-08/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/2025/2025-05-08/</guid>
-      <description>
-        
-        
-        &lt;p&gt;This page is under a folder.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-    <item>
-      <title>2025-05-09 마인 크래프트</title>
-      <link>/blog/2025/2025-05-09/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/blog/2025/2025-05-09/</guid>
-      <description>
-        
-        
-        &lt;p&gt;This page is under a folder.&lt;/p&gt;
-
-      </description>
-    </item>
-    
-  </channel>
-</rss>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tree6316mte – Blog's</title><link>/blog/</link><description>Recent content in Blog's on tree6316mte</description><generator>Hugo -- gohugo.io</generator><language>ko</language><atom:link href="/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>[TIL] 단기심화 9기 2일차</title><link>/til/2026/2026-09-01/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><guid>/til/2026/2026-09-01/</guid><description>
+&lt;p&gt;&lt;img src="/images/TIL/2026/2026-09-01-1.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; 공지방에 뜬 코드카타 &lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;오늘부터는 코드카타라는 걸 하루에 한번씩 하는게 루틴에 추가되었고, 확인해보니 알고리즘 문제를 풀어서 제출하는 &lt;strong&gt;1일 ○알고리즘 문제풀기&lt;/strong&gt;같은 훈련인 것 같다.&lt;/p&gt;
+&lt;p&gt;그렇게 오늘은 코드카타 + 웹CS와 Java입문 강의와 함께 오늘 하루가 시작 되었다.&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img src="/images/TIL/2026/2026-09-01-2.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; 웹 CS와 Java 입문과 그 외 강의 사진 &lt;/div&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;입문은 대체로 순조로웠다. 사실 C#을 만져봤기 때문에 Java 문법이랑 비슷한게 많아서 큰 차이가 있는 점만 적어 본다.&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;h4&gt;&lt;strong&gt;Java가 C#와는 다른점&lt;/strong&gt;&lt;span class="hx-absolute -hx-mt-20" id="java가-c와는-다른점"&gt;&lt;/span&gt;
+&lt;a href="#java%ea%b0%80-c%ec%99%80%eb%8a%94-%eb%8b%a4%eb%a5%b8%ec%a0%90" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;Gereric&lt;/code&gt;으로 타입 선언 시 기본 자료형 사용 불가 (대문자인 Class형식으로 해줘야 함)&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Linq&lt;/code&gt;랑 비슷한 문법인 &lt;code&gt;Stream&lt;/code&gt;이라는 문법을 사용해서 &lt;code&gt;for&lt;/code&gt;나 &lt;code&gt;while&lt;/code&gt;반복문 없이 빌더 패턴 느낌으로 매개변수에 람다 식을 넣어서 데이터 가공 처리가 가능
+&lt;ul&gt;
+&lt;li&gt;사용가능한 자료구조 : List, Set, Queue, Deque, (Map은 배열은 별도 변환 필요)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;내일은 Java랑 좀 더 친숙해지기 위해서 알고리즘 문제를 Java로 몇개 풀면서 Spring에 대해 좀 봐야 할 것 같다.&lt;/p&gt;</description></item><item><title>[TIL] 단기심화 9기 1일차</title><link>/til/2026/2026-08-31/</link><pubDate>Mon, 31 Aug 2026 00:00:00 +0000</pubDate><guid>/til/2026/2026-08-31/</guid><description>
+&lt;p&gt;&lt;img src="/images/TIL/2026/2026-08-31-1.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; 사이트에 있던 게임 서버 개발 트랙 사진 &lt;/div&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;a href="https://spartaclub.kr/" target="_blank" rel="noopener"&gt;스파르타 코딩클럽&lt;/a&gt;에서 진행하는 내일배움캠프에서 게임 서버 개발을 신청 후 들어왔다.
+국민 취업 지원 제도에는 &lt;span style="color:#87CEEB;"&gt;&lt;strong&gt;심화_AI를 활용한 백엔드 아키텍처 심화 과정&lt;/strong&gt;&lt;/span&gt;으로 되어있다.&lt;/p&gt;
+&lt;p&gt;이번이 처음이 아니라 유니티 7기 트랙을 수료하고 게임 서버 개발 트랙도 듣고싶어서 왔는데, 그래서 그런지 몰라도 첫날 조우한 조원들이 전부 전에 유니티 트랙을 들었던 분들로 구성되어 있다.&lt;/p&gt;
+&lt;p&gt;유니티 트랙에서는 반년 이상을 공부해야 수료했다면 이번에는 &lt;span style="color:#87CEEB;"&gt;7주만에 끝내는 단기 과정&lt;/span&gt;이라 정신이 없을수도 있을 것 같은 느낌이 든다.&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;Slack에서 공지, Zoom으로 강의, Zep으로 자습하는 환경은 저번 트랙과 동일한 것 같다.&lt;/p&gt;
+&lt;p&gt;유니티 트랙과 들었던 것과 달라진게 있다면 &lt;span style="color:#87CEEB;"&gt;QR체크를 통한 출석 체크&lt;/span&gt;를 해야해서 저번보다 출석 체크 하는게 조금 번거로워 진 것 같다.&lt;/p&gt;
+&lt;p&gt;그리고 첫날에 IntelliJ Ultimate도 4개월 지급해주고, 나중에 Claude도 지급해준다는데, 이정도면 1.5개월 하고도 남는 기간이라 은근히 지원이 좋은 것 같기도 하다.&lt;/p&gt;
+&lt;p&gt;강의도 지급 되었는데&amp;hellip;&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img src="/images/TIL/2026/2026-08-31-2.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; 4일만에 입문 완강이 목표 &lt;/div&gt;
+&lt;p&gt;웹CS와 Java입문 강의가 지급되었고 &lt;strong&gt;8/31(월) ~ 9/3(목)&lt;/strong&gt; 4일만에 끝내야 한다.&lt;/p&gt;</description></item></channel></rss>
