@@ -1,0 +1,21 @@
+/* 밝은 테마일 때의 전체 배경색 변경 (살짝 회색빛) */
+html:not(.dark) body {
+    background-color: #f8f9fa !important;
+}
+
+/* 추가로 사이드바나 네비게이션 바 등 특정 부분도 같이 회색으로 맞추고 싶다면 아래 코드를 활성화하세요 */
+/*
+html:not(.dark) .hx-bg-white {
+    background-color: #f8f9fa !important;
+}
+*/
+
+/* 본문 안의 모든 문단(p) 첫 줄에 띄어쓰기(들여쓰기) 1칸 정도 적용 */
+.content p {
+    text-indent: 0.5em;
+}
+
+/* 인용문(blockquote) 안에서는 들여쓰기 취소 (정렬 어긋남 방지) */
+.content blockquote p {
+    text-indent: 0;
+}
