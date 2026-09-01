@@ -1,26 +1,70 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tree6316mte – 유니티 쉐이더</title><link>/unity_tip/shaderlab/</link><description>Recent content in 유니티 쉐이더 on tree6316mte</description><generator>Hugo -- gohugo.io</generator><language>ko</language><atom:link href="/unity_tip/shaderlab/index.xml" rel="self" type="application/rss+xml"/><item><title>_Shader</title><link>/unity_tip/shaderlab/_shader/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/unity_tip/shaderlab/_shader/</guid><description>
-&lt;h3&gt;변수 값 (Properties)&lt;span class="hx-absolute -hx-mt-20" id="변수-값-properties"&gt;&lt;/span&gt;
-&lt;a href="#%eb%b3%80%ec%88%98-%ea%b0%92-properties" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>tree6316mte – 유니티 쉐이더</title>
+    <link>//localhost:1313/unity_tip/shaderlab/</link>
+    <description>Recent content in 유니티 쉐이더 on tree6316mte</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko</language>
+    
+	  <atom:link href="//localhost:1313/unity_tip/shaderlab/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+      
+        
+      
+    
+    
+    <item>
+      <title>_Shader</title>
+      <link>//localhost:1313/unity_tip/shaderlab/_shader/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/unity_tip/shaderlab/_shader/</guid>
+      <description>
+        
+        
+        &lt;h3&gt;변수 값 (Properties)&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;변수-값-properties&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#%eb%b3%80%ec%88%98-%ea%b0%92-properties&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class=&#34;hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code&#34;&gt;
+
 &lt;div&gt;&lt;pre&gt;&lt;code&gt;_Color (&amp;#34;Main Color&amp;#34;, Color) = (1,0,0,1)
 _Vector (&amp;#34;Vector4&amp;#34;, Vector) = (1,2,3,4)
 _Float (&amp;#34;My Float&amp;#34;, Float) = 1.0
 _Intensity (&amp;#34;Intensity&amp;#34;, Range(0,5)) = 1
 _MainTex (&amp;#34;Texture&amp;#34;, 2D) = &amp;#34;white&amp;#34; {}
 _CubeMap (&amp;#34;CubeMap&amp;#34;, Cube) = &amp;#34;&amp;#34; {}
-_VolumeTex (&amp;#34;Volume&amp;#34;, 3D) = &amp;#34;&amp;#34; {}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class="hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0"&gt;
-&lt;button
-class="hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50"
-title="Copy code"
-&gt;
-&lt;div class="copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;div class="success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4"&gt;&lt;/div&gt;
-&lt;/button&gt;
+_VolumeTex (&amp;#34;Volume&amp;#34;, 3D) = &amp;#34;&amp;#34; {}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;hextra-code-copy-btn-container hx-opacity-0 hx-transition group-hover/code:hx-opacity-100 hx-flex hx-gap-1 hx-absolute hx-m-[11px] hx-right-0 hx-top-0&#34;&gt;
+  &lt;button
+    class=&#34;hextra-code-copy-btn hx-group/copybtn hx-transition-all active:hx-opacity-50 hx-bg-primary-700/5 hx-border hx-border-black/5 hx-text-gray-600 hover:hx-text-gray-900 hx-rounded-md hx-p-1.5 dark:hx-bg-primary-300/10 dark:hx-border-white/10 dark:hx-text-gray-400 dark:hover:hx-text-gray-50&#34;
+    title=&#34;Copy code&#34;
+  &gt;
+    &lt;div class=&#34;copy-icon group-[.copied]/copybtn:hx-hidden hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+    &lt;div class=&#34;success-icon hx-hidden group-[.copied]/copybtn:hx-block hx-pointer-events-none hx-h-4 hx-w-4&#34;&gt;&lt;/div&gt;
+  &lt;/button&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description></item><item><title>HLSLPROGRAM</title><link>/unity_tip/shaderlab/hlslprogram/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/unity_tip/shaderlab/hlslprogram/</guid><description>
-&lt;h3&gt;1. CGPROGRAM - 과거의 유산&lt;span class="hx-absolute -hx-mt-20" id="1-cgprogram---과거의-유산"&gt;&lt;/span&gt;
-&lt;a href="#1-cgprogram---%ea%b3%bc%ea%b1%b0%ec%9d%98-%ec%9c%a0%ec%82%b0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;언어: NVIDIA의 Cg (C for Graphics) 라는 셰이더 언어를 기반으로 합니다.
+&lt;/div&gt;
+
+      </description>
+    </item>
+    
+    <item>
+      <title>HLSLPROGRAM</title>
+      <link>//localhost:1313/unity_tip/shaderlab/hlslprogram/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>//localhost:1313/unity_tip/shaderlab/hlslprogram/</guid>
+      <description>
+        
+        
+        &lt;h3&gt;1. CGPROGRAM - 과거의 유산&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;1-cgprogram---과거의-유산&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#1-cgprogram---%ea%b3%bc%ea%b1%b0%ec%9d%98-%ec%9c%a0%ec%82%b0&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;언어: NVIDIA의 Cg (C for Graphics) 라는 셰이더 언어를 기반으로 합니다.
 요약: CGPROGRAM은 구형 파이프라인(Built-in)에서 사용하던 레거시(Legacy) 방식입니다.&lt;/p&gt;
-&lt;h3&gt;2. HLSLPROGRAM - 현대적인 표준&lt;span class="hx-absolute -hx-mt-20" id="2-hlslprogram---현대적인-표준"&gt;&lt;/span&gt;
-&lt;a href="#2-hlslprogram---%ed%98%84%eb%8c%80%ec%a0%81%ec%9d%b8-%ed%91%9c%ec%a4%80" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;HLSLPROGRAM은 URP(Universal Render Pipeline)와 HDRP(High Definition Render Pipeline)를 위해 도입된 새로운 표준입니다.&lt;/p&gt;
+&lt;h3&gt;2. HLSLPROGRAM - 현대적인 표준&lt;span class=&#34;hx-absolute -hx-mt-20&#34; id=&#34;2-hlslprogram---현대적인-표준&#34;&gt;&lt;/span&gt;
+    &lt;a href=&#34;#2-hlslprogram---%ed%98%84%eb%8c%80%ec%a0%81%ec%9d%b8-%ed%91%9c%ec%a4%80&#34; class=&#34;subheading-anchor&#34; aria-label=&#34;Permalink for this section&#34;&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;HLSLPROGRAM은 URP(Universal Render Pipeline)와 HDRP(High Definition Render Pipeline)를 위해 도입된 새로운 표준입니다.&lt;/p&gt;
 &lt;p&gt;언어: Microsoft의 HLSL (High-Level Shading Language)을 직접 사용합니다. HLSL은 DirectX의 표준 셰이더 언어로, 오늘날 PC/콘솔 그래픽스 개발의 사실상 표준입니다.
-요약: HLSLPROGRAM은 URP/HDRP를 위한 현대적인 표준 방식입니다.&lt;/p&gt;</description></item></channel></rss>
+요약: HLSLPROGRAM은 URP/HDRP를 위한 현대적인 표준 방식입니다.&lt;/p&gt;
+
+      </description>
+    </item>
+    
+  </channel>
+</rss>
