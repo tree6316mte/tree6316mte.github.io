@@ -1,5 +1,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tree6316mte – 행위(Behavioral) 패턴</title><link>https://tree6316mte.github.io/design_pattern/behavioral_patterns/</link><description>Recent content in 행위(Behavioral) 패턴 on tree6316mte</description><generator>Hugo -- gohugo.io</generator><language>ko</language><atom:link href="https://tree6316mte.github.io/design_pattern/behavioral_patterns/index.xml" rel="self" type="application/rss+xml"/><item><title>옵저버</title><link>https://tree6316mte.github.io/design_pattern/behavioral_patterns/observer/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tree6316mte.github.io/design_pattern/behavioral_patterns/observer/</guid><description>
-&lt;p&gt;(작성중)&lt;/p&gt;</description></item><item><title>전략</title><link>https://tree6316mte.github.io/design_pattern/behavioral_patterns/strategy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tree6316mte.github.io/design_pattern/behavioral_patterns/strategy/</guid><description>
+&lt;div class="hx-overflow-x-auto hx-mt-6 hx-flex hx-rounded-lg hx-border hx-py-2 ltr:hx-pr-4 rtl:hx-pl-4 contrast-more:hx-border-current contrast-more:dark:hx-border-current hx-border-red-200 hx-bg-red-100 hx-text-red-900 dark:hx-border-red-200/30 dark:hx-bg-red-900/30 dark:hx-text-red-200"&gt;
+&lt;div class="ltr:hx-pl-3 ltr:hx-pr-2 rtl:hx-pr-3 rtl:hx-pl-2"&gt;&lt;div class="hx-select-none hx-text-xl" style="font-family: 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';"&gt;🚫&lt;/div&gt;&lt;/div&gt;
+&lt;div class="hx-w-full hx-min-w-0 hx-leading-7"&gt;
+&lt;div class="hx-mt-6 hx-leading-7 first:hx-mt-0"&gt;(작성중) 아직 작성되지 않은 포스트 글입니다.&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;</description></item><item><title>전략</title><link>https://tree6316mte.github.io/design_pattern/behavioral_patterns/strategy/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://tree6316mte.github.io/design_pattern/behavioral_patterns/strategy/</guid><description>
 &lt;h2&gt;전략(Strategy) 패턴이란?&lt;span class="hx-absolute -hx-mt-20" id="전략strategy-패턴이란"&gt;&lt;/span&gt;
 &lt;a href="#%ec%a0%84%eb%9e%b5strategy-%ed%8c%a8%ed%84%b4%ec%9d%b4%eb%9e%80" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/design_pattern/behavioral_patterns/strategy.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
 &lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt;어떤 포탄을 선택할까? 각양각색의 포탄 종류&lt;/div&gt;
@@ -76,7 +81,7 @@ title="Copy code"
 &lt;/div&gt;
 &lt;p&gt;위 코드는 포탄이 바뀔 때마다 조건문(&lt;code&gt;switch&lt;/code&gt;)을 통해 행동을 다르게 하고 있습니다. 만약 포탄의 종류가 10개, 20개로 늘어난다면 &lt;code&gt;Fire()&lt;/code&gt; 메서드는 끝없이 길어지고 유지보수가 매우 힘들어집니다.&lt;/p&gt;
 &lt;p&gt;이제 전략 패턴을 사용하여 공격 방식(&lt;code&gt;enum&lt;/code&gt;)을 별도의 클래스(&lt;code&gt;class&lt;/code&gt;)로 분리해 보겠습니다.&lt;/p&gt;
-&lt;h3&gt;&lt;span style="color:#F08080;"&gt;전략 패턴을 통한 해결 코드&lt;/span&gt;&lt;span class="hx-absolute -hx-mt-20" id="전략-패턴을-통한-해결-코드"&gt;&lt;/span&gt;
+&lt;h3&gt;&lt;span style="color:#87CEEB;"&gt;전략 패턴을 통한 해결 코드&lt;/span&gt;&lt;span class="hx-absolute -hx-mt-20" id="전략-패턴을-통한-해결-코드"&gt;&lt;/span&gt;
 &lt;a href="#%ec%a0%84%eb%9e%b5-%ed%8c%a8%ed%84%b4%ec%9d%84-%ed%86%b5%ed%95%9c-%ed%95%b4%ea%b2%b0-%ec%bd%94%eb%93%9c" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
 &lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="nn"&gt;UnityEngine&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;

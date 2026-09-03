@@ -84,7 +84,7 @@ title="Copy code"
 &lt;p&gt;위의 코드는 어댑터 패턴을 설명하기 위해 작성한 코드입니다.
 &lt;code&gt;// 오류 발생 : 220V는 일본 집 콘센트에 꽂을 수 없다&lt;/code&gt;라는 주석 밑에 &lt;code&gt;JapanHomeOutlet(electronic_device_220V);&lt;/code&gt;를 사용하지 못하는 상황입니다.&lt;/p&gt;
 &lt;p&gt;이제 &lt;code&gt;Adapter220Vto110V&lt;/code&gt;라는 클래스를 생성해서 어댑터 역할을 만들어 보겠습니다.&lt;/p&gt;
-&lt;h3&gt;&lt;span style="color:#F08080;"&gt;어댑터를 통한 해결 코드&lt;/span&gt;&lt;span class="hx-absolute -hx-mt-20" id="어댑터를-통한-해결-코드"&gt;&lt;/span&gt;
+&lt;h3&gt;&lt;span style="color:#87CEEB;"&gt;어댑터를 통한 해결 코드&lt;/span&gt;&lt;span class="hx-absolute -hx-mt-20" id="어댑터를-통한-해결-코드"&gt;&lt;/span&gt;
 &lt;a href="#%ec%96%b4%eb%8c%91%ed%84%b0%eb%a5%bc-%ed%86%b5%ed%95%9c-%ed%95%b4%ea%b2%b0-%ec%bd%94%eb%93%9c" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
 &lt;div&gt;&lt;div class="highlight"&gt;&lt;pre tabindex="0" class="chroma"&gt;&lt;code class="language-csharp" data-lang="csharp"&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;&lt;span class="k"&gt;using&lt;/span&gt; &lt;span class="nn"&gt;UnityEngine&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span class="line"&gt;&lt;span class="cl"&gt;

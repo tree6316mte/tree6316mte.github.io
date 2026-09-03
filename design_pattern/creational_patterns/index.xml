@@ -3,7 +3,7 @@
 &lt;a href="#%eb%b9%8c%eb%8d%94builder-%ed%8c%a8%ed%84%b4%ec%9d%b4%eb%9e%80" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/design_pattern/creational_patterns/builder.png" alt="" loading="lazy" /&gt;
 &lt;br&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;빌더(Builder) 패턴&lt;/strong&gt;은 객체를 생성할 때 복잡한 객체의 생성 과정과 표현 방법을 분리하여 다양한 구성의 인스턴스를 만들기 위한 패턴이다.&lt;/p&gt;
-&lt;p&gt;쉽게 말해, &lt;span style="color:#F08080;"&gt;매개변수에 멤버변수에 대한 값을 전달 하지 않고&lt;/span&gt;, &lt;span style="color:#87CEEB;"&gt;함수를 호출하여 멤버변수를 수정&lt;/span&gt;하는 방식입니다.&lt;/p&gt;
+&lt;p&gt;쉽게 말해, &lt;span style="color:#F08080;"&gt;생성자를 통한 매개변수에 멤버변수에 대한 값을 전달 하지 않고&lt;/span&gt;, &lt;span style="color:#87CEEB;"&gt;함수를 호출하여 멤버변수를 수정&lt;/span&gt;하는 방식입니다.&lt;/p&gt;
 &lt;h2&gt;빌더 패턴 사용 예시&lt;span class="hx-absolute -hx-mt-20" id="빌더-패턴-사용-예시"&gt;&lt;/span&gt;
 &lt;a href="#%eb%b9%8c%eb%8d%94-%ed%8c%a8%ed%84%b4-%ec%82%ac%ec%9a%a9-%ec%98%88%ec%8b%9c" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;빌더 패턴 적용이 안된 코드와 적용된 코드를 만들어 비교해 보겠습니다.&lt;/p&gt;
 &lt;h3&gt;&lt;span style="color:#F08080;"&gt;빌더 패턴 적용 Before&lt;/span&gt;&lt;span class="hx-absolute -hx-mt-20" id="빌더-패턴-적용-before"&gt;&lt;/span&gt;
@@ -159,7 +159,7 @@ title="Copy code"
 &lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; "이 세상에 나(Instance)는 하나만 존재한다." &lt;/div&gt;
 &lt;br&gt;
 &lt;p&gt;&lt;strong&gt;싱글톤(Singleton) 패턴&lt;/strong&gt;은 클래스의 인스턴스를 &lt;strong&gt;오직 하나만 생성&lt;/strong&gt;하고, 어디서든 그 인스턴스에 접근할 수 있도록 보장하는 패턴입니다.&lt;/p&gt;
-&lt;p&gt;주로 게임 매니저(GameManager), 오디오 매니저, 네트워크 연결 등 &lt;strong&gt;시스템 전반에서 공유되어야 하는 유일한 객체&lt;/strong&gt;를 만들 때 사용됩니다.&lt;/p&gt;
+&lt;p&gt;주로 게임 매니저(GameManager), 오디오 매니저, 네트워크 연결 등 &lt;span style="color:#87CEEB;"&gt;&lt;strong&gt;시스템 전반에서 공유되어야 하는 유일한 객체&lt;/strong&gt;&lt;/span&gt;를 만들 때 사용됩니다.&lt;/p&gt;
 &lt;h2&gt;싱글톤 구현 예시 (Unity/C#)&lt;span class="hx-absolute -hx-mt-20" id="싱글톤-구현-예시-unityc"&gt;&lt;/span&gt;
 &lt;a href="#%ec%8b%b1%ea%b8%80%ed%86%a4-%ea%b5%ac%ed%98%84-%ec%98%88%ec%8b%9c-unityc" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;1. 기본적인 C# 싱글톤&lt;span class="hx-absolute -hx-mt-20" id="1-기본적인-c-싱글톤"&gt;&lt;/span&gt;
 &lt;a href="#1-%ea%b8%b0%eb%b3%b8%ec%a0%81%ec%9d%b8-c-%ec%8b%b1%ea%b8%80%ed%86%a4" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;div class="hextra-code-block hx-relative hx-mt-6 first:hx-mt-0 hx-group/code"&gt;
