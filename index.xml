@@ -1,5 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tree6316mte – 블로그</title><link>https://tree6316mte.github.io/</link><description>Recent content in 블로그 on tree6316mte</description><generator>Hugo -- gohugo.io</generator><language>ko</language><lastBuildDate>Tue, 08 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tree6316mte.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>[TIL] 단기심화 9기 7일차</title><link>https://tree6316mte.github.io/til/2026/2026-09-08/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate><guid>https://tree6316mte.github.io/til/2026/2026-09-08/</guid><description>
 &lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/til/2026/2026-09-08-1.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; Spring Boot 정리가 덜 된 상태&lt;/div&gt;
 &lt;p&gt;드디어 입문주차 프로젝트가 발제되었고, 클로드 코드 팀 스텐다드 플랜에 초대도 받았다&lt;/p&gt;
 &lt;p&gt;그리고 입문주차 문제를 풀어 보는데&amp;hellip;!&lt;/p&gt;
 &lt;p&gt;4번 문제부터 살짝 막히기 시작,,, 7번 8번 문제는 AI한테 조금 힌트를 물어봐서 풀 수 있었다&lt;/p&gt;
