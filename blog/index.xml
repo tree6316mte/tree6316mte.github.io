@@ -1,4 +1,20 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tree6316mte – Blog's</title><link>https://tree6316mte.github.io/blog/</link><description>Recent content in Blog's on tree6316mte</description><generator>Hugo -- gohugo.io</generator><language>ko</language><atom:link href="https://tree6316mte.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>[TIL] 단기심화 9기 7일차</title><link>https://tree6316mte.github.io/til/2026/2026-09-08/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate><guid>https://tree6316mte.github.io/til/2026/2026-09-08/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tree6316mte – Blog's</title><link>https://tree6316mte.github.io/blog/</link><description>Recent content in Blog's on tree6316mte</description><generator>Hugo -- gohugo.io</generator><language>ko</language><atom:link href="https://tree6316mte.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>[TIL] 단기심화 9기 8일차</title><link>https://tree6316mte.github.io/til/2026/2026-09-09/</link><pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate><guid>https://tree6316mte.github.io/til/2026/2026-09-09/</guid><description>
+&lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/til/2026/2026-09-09-1.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; 들었던 강의를 또 한번 더 보면서 정리하고 있으니까 뭔가뭔가였다... &lt;/div&gt;
+&lt;p&gt;오늘은 강의를 너무 대충 본 것 같아 다시 처음부터 들으면서 Spring Boot에 대한 이것저것 정리하면서 한눈에 볼 수 있게 치트시트를 만들었다&lt;/p&gt;
+&lt;p&gt;여유롭게 치트시트나 만들고 있는 이유는 오늘은 실시간 강의도 없었고, 프로젝트 과제가 12문제로 이루어져 있는데 필수 문제인 8번까지는 어찌저찌 풀어놨고, 이 후 도전과제는 충분히 정리를 한 다음 할 수 있을 것 같아서 그렇게 했다&lt;/p&gt;
+&lt;p&gt;치트시트는 대강 다 정리가 되었지만 아직 보여주기에는 창피한 정도라 나중에 치트시트가 완성이 되면 블로그에 올리도록 할 것이다&lt;/p&gt;
+&lt;p&gt;그리고 문제를 풀어 봤는데&amp;hellip;&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/til/2026/2026-09-09-2.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; 10번 문제 풀고 Burp Suite로 데이터 확인 &lt;/div&gt;
+&lt;p&gt;치트시트를 정리하고 난 이후 다시 풀어보니까 어떻게 Spring이 굴러가는지 확실히 좀 더 이해하게 됬고, 문제들이 뭔가 입문한 사람들에게 이런 기능이 있다는 느낌으로 퍼즐처럼 정확하게 들어맞으니까 퀴즈 푸는 느낌도 들고, 정말로 문제 만든 튜터님이 생각 많이하고 냈다는 것이 느껴졌다&lt;/p&gt;
+&lt;p&gt;일단 문제는 10번까지 풀었고, 9번은 &lt;code&gt;throw&lt;/code&gt;로 예외처리 해서 바로 풀렸는데, 10번 문제로는 예외 처리 클래스 만든 것을 쓰는 것이여서 처음해보다 보니 은근 어려웠다&amp;hellip;&lt;/p&gt;
+&lt;p&gt;그렇게 오늘은 문제 10번까지 풀었고 내일은 11번 문제와 12번 문제에 도전한다&lt;/p&gt;
+&lt;p&gt;뭔가 프로젝트 발제 하고 4일만에 풀어야 해서 긴박할 것 같았는데, 생각보다 널널한 것 같아서 프로젝트 발제 이후가 훨씬 마음이 놓인다(?)&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;</description></item><item><title>[TIL] 단기심화 9기 7일차</title><link>https://tree6316mte.github.io/til/2026/2026-09-08/</link><pubDate>Tue, 08 Sep 2026 00:00:00 +0000</pubDate><guid>https://tree6316mte.github.io/til/2026/2026-09-08/</guid><description>
 &lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/til/2026/2026-09-08-1.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
 &lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; Spring Boot 정리가 덜 된 상태&lt;/div&gt;
 &lt;p&gt;드디어 입문주차 프로젝트가 발제되었고, 클로드 코드 팀 스텐다드 플랜에 초대도 받았다&lt;/p&gt;
