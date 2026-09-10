@@ -1,4 +1,22 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tree6316mte – 블로그</title><link>https://tree6316mte.github.io/</link><description>Recent content in 블로그 on tree6316mte</description><generator>Hugo -- gohugo.io</generator><language>ko</language><lastBuildDate>Wed, 09 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tree6316mte.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>[TIL] 단기심화 9기 8일차</title><link>https://tree6316mte.github.io/til/2026/2026-09-09/</link><pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate><guid>https://tree6316mte.github.io/til/2026/2026-09-09/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tree6316mte – 블로그</title><link>https://tree6316mte.github.io/</link><description>Recent content in 블로그 on tree6316mte</description><generator>Hugo -- gohugo.io</generator><language>ko</language><lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tree6316mte.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>[TIL] 단기심화 9기 9일차</title><link>https://tree6316mte.github.io/til/2026/2026-09-10/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><guid>https://tree6316mte.github.io/til/2026/2026-09-10/</guid><description>
+&lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/til/2026/2026-09-10-1.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; 프로젝트 과제를 완료하고난 뒤 &lt;/div&gt;
+&lt;p&gt;오늘은 프로젝트 과제의 11단계와 12단계를 모두 다 풀었다&lt;/p&gt;
+&lt;p&gt;원래 12단계가 실무에서 신입으로 들어가면 할수도 있는 일(?)이라고 하는데 반나절 걸리니까 뭔가 힘들었지만, 그래도 쉬다와서 이정도면&amp;hellip; 앞으로 잘 해낼 수 있겟지?&lt;/p&gt;
+&lt;p&gt;그리고 과제의 12단계에는 안배운 개념 &lt;em&gt;&lt;strong&gt;(RestClient)&lt;/strong&gt;&lt;/em&gt; 도 나와서 치트 시트에 추가했다&lt;/p&gt;
+&lt;p&gt;아직 치트 시트는 초보자용 이지만 얼추 완성 된 것 같다&lt;/p&gt;
+&lt;p&gt;블로그 상단 메뉴 &lt;a href="https://tree6316mte.github.io/spring" &gt;Spring&lt;/a&gt;을 클릭해서 Spring 치트시트로 가면 된다&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;
+&lt;p&gt;하루종일 하던 프로젝트 과제를 마무리 하고 실시간 강의가 열렸는데 강의 내용은 내일배움 캠프를 졸업하고 취업에 성공한 선배 이야기 및 사소한 꿀팁(?)을 알려줬다&lt;/p&gt;
+&lt;h2&gt;TIL 시간 줄이기&lt;span class="hx-absolute -hx-mt-20" id="til-시간-줄이기"&gt;&lt;/span&gt;
+&lt;a href="#til-%ec%8b%9c%ea%b0%84-%ec%a4%84%ec%9d%b4%ea%b8%b0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;세션으로 작업 다 한 뒤에 세션 정리하지말고 &lt;em&gt;&lt;strong&gt;&amp;ldquo;나랑 이 세션에서 나눳던 대화 트러블 슈팅으로 작성해줘&amp;rdquo;&lt;/strong&gt;&lt;/em&gt; 프롬프트 같은 걸 입력해서 작업시간 줄이는것 보다 TIL 작성하는 시간을 줄이는 것이 좋다고 했다&lt;/p&gt;
+&lt;p&gt;이후 바레이션으로 &lt;em&gt;&lt;strong&gt;&amp;ldquo;오늘 배운거 포트폴리오 쓸만한것들 추려줘&amp;rdquo;&lt;/strong&gt;&lt;/em&gt; 같은 것들도 있다&lt;/p&gt;
+&lt;p&gt;사실 블로그 정리 AI한테 맡기면 뭔가 딱딱한 느낌들고 내가 직접쓴게 아니다 보니까 나중에 다시 TIL이나 정리글을 봐도 이해가 조금 덜 되긴 하던데 그래도 그시간에 작업을 조금 더 하는게 남는걸까? 일단 오늘 TIL은 손으로 쓰고 내일 해봐야 더 좋은지 나쁜지 알 것 같다&lt;/p&gt;
+&lt;p&gt;팀원들과 이야기하고 친해지면 결국 같은 업계의 동기들이라 이야기 많이 하라고도 했다&lt;/p&gt;
+&lt;p&gt;강의가 끝나고 팀원분 중 한분이 나서서 이야기를 조금 나눌 수 있었다&lt;/p&gt;
+&lt;br&gt;
+&lt;br&gt;</description></item><item><title>[TIL] 단기심화 9기 8일차</title><link>https://tree6316mte.github.io/til/2026/2026-09-09/</link><pubDate>Wed, 09 Sep 2026 00:00:00 +0000</pubDate><guid>https://tree6316mte.github.io/til/2026/2026-09-09/</guid><description>
 &lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/til/2026/2026-09-09-1.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
 &lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; 들었던 강의를 또 한번 더 보면서 정리하고 있으니까 뭔가뭔가였다... &lt;/div&gt;
 &lt;p&gt;오늘은 강의를 너무 대충 본 것 같아 다시 처음부터 들으면서 Spring Boot에 대한 이것저것 정리하면서 한눈에 볼 수 있게 치트시트를 만들었다&lt;/p&gt;
@@ -18,7 +36,7 @@
 &lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/til/2026/2026-09-08-1.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
 &lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; Spring Boot 정리가 덜 된 상태&lt;/div&gt;
 &lt;p&gt;드디어 입문주차 프로젝트가 발제되었고, 클로드 코드 팀 스텐다드 플랜에 초대도 받았다&lt;/p&gt;
-&lt;p&gt;그리고 입문주차 문제를 풀어 보는데&amp;hellip;!&lt;/p&gt;
+&lt;p&gt;플랜 종료일은 &lt;code&gt;11/8&lt;/code&gt;&amp;hellip; 그리고 입문주차 문제를 풀어 보는데&amp;hellip;!&lt;/p&gt;
 &lt;p&gt;4번 문제부터 살짝 막히기 시작,,, 7번 8번 문제는 AI한테 조금 힌트를 물어봐서 풀 수 있었다&lt;/p&gt;
 &lt;p&gt;8번 문제까지의 필수 구현이 끝나고 9번부터는 도전 기능 구현이라 잠시 멈췄다&lt;/p&gt;
 &lt;p&gt;그 후, 내가 입문주차 프로젝트 지금까지 했던 Spring Boot 내용을 정리할 필요를 느꼇다&lt;/p&gt;
