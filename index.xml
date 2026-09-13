@@ -1,4 +1,29 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tree6316mte – 블로그</title><link>https://tree6316mte.github.io/</link><description>Recent content in 블로그 on tree6316mte</description><generator>Hugo -- gohugo.io</generator><language>ko</language><lastBuildDate>Thu, 10 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tree6316mte.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>[TIL] 단기심화 9기 9일차</title><link>https://tree6316mte.github.io/til/2026/2026-09-10/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><guid>https://tree6316mte.github.io/til/2026/2026-09-10/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tree6316mte – 블로그</title><link>https://tree6316mte.github.io/</link><description>Recent content in 블로그 on tree6316mte</description><generator>Hugo -- gohugo.io</generator><language>ko</language><lastBuildDate>Fri, 11 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tree6316mte.github.io/index.xml" rel="self" type="application/rss+xml"/><item><title>[TIL] 단기심화 9기 10일차</title><link>https://tree6316mte.github.io/til/2026/2026-09-11/</link><pubDate>Fri, 11 Sep 2026 00:00:00 +0000</pubDate><guid>https://tree6316mte.github.io/til/2026/2026-09-11/</guid><description>
+&lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/til/2026/2026-09-11-1.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; AI를 첨가한 TIL 작성 해보기 &lt;/div&gt;
+&lt;h2&gt;📝 오늘의 메모 및 회고&lt;span class="hx-absolute -hx-mt-20" id="-오늘의-메모-및-회고"&gt;&lt;/span&gt;
+&lt;a href="#-%ec%98%a4%eb%8a%98%ec%9d%98-%eb%a9%94%eb%aa%a8-%eb%b0%8f-%ed%9a%8c%ea%b3%a0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;과제 제출&lt;/strong&gt;: 과제를 제출하고 GitHub에 README를 정성껏 작성했습니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;실시간 강의&lt;/strong&gt;: 컴퓨터공학 분반에서 객체 지향 프로그래밍에 대해 강의했습니다.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;💻 OOP (객체 지향 프로그래밍)&lt;span class="hx-absolute -hx-mt-20" id="-oop-객체-지향-프로그래밍"&gt;&lt;/span&gt;
+&lt;a href="#-oop-%ea%b0%9d%ec%b2%b4-%ec%a7%80%ed%96%a5-%ed%94%84%eb%a1%9c%ea%b7%b8%eb%9e%98%eb%b0%8d" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/til/2026/2026-09-11-2.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; 핵심 키워드 요약 &lt;/div&gt;
+&lt;p&gt;객체 지향은 코드를 시스템화하여 복잡성을 줄이고 누구나 쉽게 코드를 제어하기 위해 고안되었습니다.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;strong&gt;캡슐화&lt;/strong&gt;: 외부의 직접적인 멤버변수 조작을 막고, 메서드를 통해서만 기능을 노출합니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;상속&lt;/strong&gt;: 클래스의 공통 속성 및 동작을 묶어 코드 재사용성을 높입니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;다형성&lt;/strong&gt;: 같은 인터페이스 호출로도 객체에 따라 다양한 동작을 수행합니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;추상화&lt;/strong&gt;: 복잡한 내부 구조를 숨기고 직관적인 인터페이스를 제공합니다.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2&gt;🛠️ SOLID 5대 원칙&lt;span class="hx-absolute -hx-mt-20" id="-solid-5대-원칙"&gt;&lt;/span&gt;
+&lt;a href="#-solid-5%eb%8c%80-%ec%9b%90%ec%b9%99" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;단일 책임 원칙 (SRP)&lt;/strong&gt;: 하나의 클래스는 하나의 명확한 기능만 가집니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;개방 폐쇄 원칙 (OCP)&lt;/strong&gt;: 기존 코드를 수정하지 않고도 확장이 가능해야 합니다. (레고블록처럼 조립)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;리스코프 치환 원칙 (LSP)&lt;/strong&gt;: 자식 클래스는 부모 클래스의 기능을 훼손(제거)해서는 안 됩니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;인터페이스 분리 원칙 (ISP)&lt;/strong&gt;: 인터페이스를 구체적이고 잘게 나누어 적재적소에 배치합니다.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;의존 역전 원칙 (DIP)&lt;/strong&gt;: 구체적인 구현이 아닌 추상화된 것에 의존해야 합니다.&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>[TIL] 단기심화 9기 9일차</title><link>https://tree6316mte.github.io/til/2026/2026-09-10/</link><pubDate>Thu, 10 Sep 2026 00:00:00 +0000</pubDate><guid>https://tree6316mte.github.io/til/2026/2026-09-10/</guid><description>
 &lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/til/2026/2026-09-10-1.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
 &lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; 프로젝트 과제를 완료하고난 뒤 &lt;/div&gt;
 &lt;p&gt;오늘은 프로젝트 과제의 11단계와 12단계를 모두 다 풀었다&lt;/p&gt;
