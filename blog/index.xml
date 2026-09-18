@@ -1,4 +1,88 @@
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tree6316mte – Blog's</title><link>https://tree6316mte.github.io/blog/</link><description>Recent content in Blog's on tree6316mte</description><generator>Hugo -- gohugo.io</generator><language>ko</language><atom:link href="https://tree6316mte.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>[TIL] 단기심화 9기 14일차</title><link>https://tree6316mte.github.io/til/2026/2026-09-17/</link><pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate><guid>https://tree6316mte.github.io/til/2026/2026-09-17/</guid><description>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>tree6316mte – Blog's</title><link>https://tree6316mte.github.io/blog/</link><description>Recent content in Blog's on tree6316mte</description><generator>Hugo -- gohugo.io</generator><language>ko</language><lastBuildDate>Tue, 15 Sep 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://tree6316mte.github.io/blog/index.xml" rel="self" type="application/rss+xml"/><item><title>[TIL] 단기심화 9기 15일차</title><link>https://tree6316mte.github.io/til/2026/2026-09-18/</link><pubDate>Fri, 18 Sep 2026 00:00:00 +0000</pubDate><guid>https://tree6316mte.github.io/til/2026/2026-09-18/</guid><description>
+&lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/til/2026/2026-09-18.jpg" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; 배운 걸 까먹고 분명 봤는데 &lt;/div&gt;
+&lt;h2&gt;데이터 관리 방법&lt;span class="hx-absolute -hx-mt-20" id="데이터-관리-방법"&gt;&lt;/span&gt;
+&lt;a href="#%eb%8d%b0%ec%9d%b4%ed%84%b0-%ea%b4%80%eb%a6%ac-%eb%b0%a9%eb%b2%95" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;h3&gt;서버의 메모리&lt;span class="hx-absolute -hx-mt-20" id="서버의-메모리"&gt;&lt;/span&gt;
+&lt;a href="#%ec%84%9c%eb%b2%84%ec%9d%98-%eb%a9%94%eb%aa%a8%eb%a6%ac" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;같은 데이터라도 &lt;span style="color:#F08080;"&gt;어디에 두느냐&lt;/span&gt;에 따라 속도와 수명이 달라진다&lt;/p&gt;
+&lt;p&gt;서버가 느려지거나 멈추는 원인의 상당수는 &lt;span style="color:#F08080;"&gt;메모리&lt;/span&gt;에서 시작된다&lt;/p&gt;
+&lt;p&gt;동시성 버그는 &lt;span style="color:#F08080;"&gt;여럿이 함께 쓰는 메모리&lt;/span&gt;에서만 생긴다&lt;/p&gt;
+&lt;h4&gt;데이터가 놓이는 3가지 구역&lt;span class="hx-absolute -hx-mt-20" id="데이터가-놓이는-3가지-구역"&gt;&lt;/span&gt;
+&lt;a href="#%eb%8d%b0%ec%9d%b4%ed%84%b0%ea%b0%80-%eb%86%93%ec%9d%b4%eb%8a%94-3%ea%b0%80%ec%a7%80-%ea%b5%ac%ec%97%ad" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/til/2026/2026-09-18-1.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; JVM 메모리 (다른 곳에서도 동작은 비슷함) &lt;/div&gt;
+&lt;p&gt;스택에서는 따로 쓰기때문에 상관없지만 객체가 생성되는 힙에서 동시성 버그가 일어난다.&lt;/p&gt;
+&lt;h5&gt;각 장소에서의 에러&lt;span class="hx-absolute -hx-mt-20" id="각-장소에서의-에러"&gt;&lt;/span&gt;
+&lt;a href="#%ea%b0%81-%ec%9e%a5%ec%86%8c%ec%97%90%ec%84%9c%ec%9d%98-%ec%97%90%eb%9f%ac" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h5&gt;&lt;p&gt;스택: &lt;code&gt;StackOverflowError&lt;/code&gt;
+힙: &lt;code&gt;OutOfMemoryError&lt;/code&gt;&lt;/p&gt;
+&lt;h3&gt;GC의 원리&lt;span class="hx-absolute -hx-mt-20" id="gc의-원리"&gt;&lt;/span&gt;
+&lt;a href="#gc%ec%9d%98-%ec%9b%90%eb%a6%ac" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;참조가 풀린 객체들을 정리한다&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/til/2026/2026-09-18-2.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; GC 처리과정 &lt;/div&gt;
+&lt;p&gt;3가지 다 O(n)의 결과값을 가지지만 O(logN)이 아닌이상 효율적이라고 볼 순 없다&lt;/p&gt;
+&lt;h4&gt;GC가 발생하는 시간&lt;span class="hx-absolute -hx-mt-20" id="gc가-발생하는-시간"&gt;&lt;/span&gt;
+&lt;a href="#gc%ea%b0%80-%eb%b0%9c%ec%83%9d%ed%95%98%eb%8a%94-%ec%8b%9c%ea%b0%84" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/til/2026/2026-09-18-3.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; GC 힙을 나이순으로 나눔 &lt;/div&gt;
+&lt;p&gt;객체가 만들어 졌을때 바로 참조 끊겼는지 확인하고 S0나 S1으로 넘김&lt;/p&gt;
+&lt;p&gt;이후 더 오래 살아남으면 Old로 넘김&lt;/p&gt;
+&lt;p&gt;그리고 Young 힙에 들어있는 객체들은 Old 보다 자주 GC에게 검사받음&lt;/p&gt;
+&lt;p&gt;static은 바로 Old 힙에 넣음&lt;/p&gt;
+&lt;h4&gt;주의사항&lt;span class="hx-absolute -hx-mt-20" id="주의사항"&gt;&lt;/span&gt;
+&lt;a href="#%ec%a3%bc%ec%9d%98%ec%82%ac%ed%95%ad" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h4&gt;&lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/til/2026/2026-09-18-4.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; 이렇게 사용하면 힙이 터진다 &lt;/div&gt;
+&lt;h3&gt;데이터는 어디에 두는가&lt;span class="hx-absolute -hx-mt-20" id="데이터는-어디에-두는가"&gt;&lt;/span&gt;
+&lt;a href="#%eb%8d%b0%ec%9d%b4%ed%84%b0%eb%8a%94-%ec%96%b4%eb%94%94%ec%97%90-%eb%91%90%eb%8a%94%ea%b0%80" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;DB에 두는 이유는 여러개의 서버 컴퓨터가 원자성을 가진 데이터를 보장받기위해 사용된다&lt;/p&gt;
+&lt;h3&gt;적합한 DB 3가지&lt;span class="hx-absolute -hx-mt-20" id="적합한-db-3가지"&gt;&lt;/span&gt;
+&lt;a href="#%ec%a0%81%ed%95%a9%ed%95%9c-db-3%ea%b0%80%ec%a7%80" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/til/2026/2026-09-18-5.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; 적재적소에 DB를 다르게 사용할 줄 알아야 하는 이유 &lt;/div&gt;
+&lt;p&gt;서버의 힙: 서버 메모리에 바로 보관됨
+Redis: DB 메모리에 보관됨
+MySQL: DB 디스크에 보관됨&lt;/p&gt;
+&lt;h3&gt;캐시 레이어를 두는 이유&lt;span class="hx-absolute -hx-mt-20" id="캐시-레이어를-두는-이유"&gt;&lt;/span&gt;
+&lt;a href="#%ec%ba%90%ec%8b%9c-%eb%a0%88%ec%9d%b4%ec%96%b4%eb%a5%bc-%eb%91%90%eb%8a%94-%ec%9d%b4%ec%9c%a0" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/til/2026/2026-09-18-6.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; I/O가 많이 일어나기 때문에 Redis를 무조권 둘 수 밖에 없음 &lt;/div&gt;
+&lt;p&gt;먼저 Redis에 캐시 조회해보고 캐시 미스가 났으면 DB에서 조회후 다시 Redis에 저장해놓음&lt;/p&gt;
+&lt;p&gt;만약 DB에 제대로 저장이 안되면 대형사고가 일어나기 때문에 DB저장을 한번씩 꼭 해줘야 한다.&lt;/p&gt;
+&lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/til/2026/2026-09-18-7.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; 캐시에서 어려운 건 넣기가 아니라 지우기 &lt;/div&gt;
+&lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/til/2026/2026-09-18-8.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; Redis에서 쓰는곳에 따른 자료구조 형식 &lt;/div&gt;
+&lt;h3&gt;요약 및 정리&lt;span class="hx-absolute -hx-mt-20" id="요약-및-정리"&gt;&lt;/span&gt;
+&lt;a href="#%ec%9a%94%ec%95%bd-%eb%b0%8f-%ec%a0%95%eb%a6%ac" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/til/2026/2026-09-18-9.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
+&lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; 요약 정리 &lt;/div&gt;
+&lt;h2&gt;테스트 코드&lt;span class="hx-absolute -hx-mt-20" id="테스트-코드"&gt;&lt;/span&gt;
+&lt;a href="#%ed%85%8c%ec%8a%a4%ed%8a%b8-%ec%bd%94%eb%93%9c" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;테스트하기 쉽게 만든 코드가 코드 품질이 높을 확률이 높다&lt;/p&gt;
+&lt;p&gt;배포단계에서의 안정성을 보장해준다
+CI: 자동 테스트(검증)
+CD: 자동 배포&lt;/p&gt;
+&lt;p&gt;시간이 지날 수록 테스트 해야 하는 기능들이 많아진다&lt;/p&gt;
+&lt;p&gt;회귀 테스트: 우리가 뭔가 고쳣을때 망가지지 않게 하는것&lt;/p&gt;
+&lt;h3&gt;테스트의 종류&lt;span class="hx-absolute -hx-mt-20" id="테스트의-종류"&gt;&lt;/span&gt;
+&lt;a href="#%ed%85%8c%ec%8a%a4%ed%8a%b8%ec%9d%98-%ec%a2%85%eb%a5%98" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;단위 테스트&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;테스트가 매우 빠르게 실행된다 (작게작게)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ol start="2"&gt;
+&lt;li&gt;통합 테스트&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;실제 인프라(의존성)도 포함된다 (데이터 흐름을 검증)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;테스트가 없으면 무섭다!&lt;/p&gt;
+&lt;h2&gt;여담(이모저모)&lt;span class="hx-absolute -hx-mt-20" id="여담이모저모"&gt;&lt;/span&gt;
+&lt;a href="#%ec%97%ac%eb%8b%b4%ec%9d%b4%eb%aa%a8%ec%a0%80%eb%aa%a8" class="subheading-anchor" aria-label="Permalink for this section"&gt;&lt;/a&gt;&lt;/h2&gt;&lt;!-- (어제사건)
+좋은 어플 : 오늘수거 &lt;- 집에 있는 쓰레기를 대신 버려주는 (분리수거 안해도 됨)
+버그가 발생했는데, 다른 B분이 이 코드를 이어서 개발한 코드가 버그가 있었음
+C가 B를 커버치면서 A의 잘못이 됨(A 화남) --&gt;
+&lt;p&gt;(그저께)&lt;br&gt;
+local - dev - qa - stg - prod (테스트 로직)&lt;br&gt;
+redis를 쓰는데 dev, qa, stg를 같이 쓰는데&lt;br&gt;
+prod쪽에 stg쪽 테스트 데이터가 막 들어갔음&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;아리안 5로켓 실패 - 1996&lt;/li&gt;
+&lt;li&gt;일본 미즈호 증권 사건 - 2005&lt;/li&gt;
+&lt;li&gt;쿠팡 서비스 재고 &amp;lsquo;0&amp;rsquo; 오류 - 2019&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>[TIL] 단기심화 9기 14일차</title><link>https://tree6316mte.github.io/til/2026/2026-09-17/</link><pubDate>Thu, 17 Sep 2026 00:00:00 +0000</pubDate><guid>https://tree6316mte.github.io/til/2026/2026-09-17/</guid><description>
 &lt;p&gt;&lt;img src="https://tree6316mte.github.io/images/til/2026/2026-09-17.png" alt="" loading="lazy" /&gt;&lt;/p&gt;
 &lt;div style="text-align: center; color: gray; font-size: 0.9em; margin-bottom: 20px;"&gt; 심화 프로젝트를 푸는 나 &lt;/div&gt;
 &lt;p&gt;심화 프로젝트 2일째, 오늘은 필수를 끝냈습니다.&lt;/p&gt;
